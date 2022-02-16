@@ -1,0 +1,91 @@
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card
+{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    flex-direction: column;
+    min-width: 100px;
+    max-width: 280px;
+    height: auto;
+    padding: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Outfit;
+    margin-top: 30vh;
+}
+
+.card-img
+{
+    width: 280px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+.main-text {
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sub-text_1 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 500;
+}
+
+.costs
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size : 17px;
+}
+
+.etheruem
+{
+    color: hsl(178, 100%, 50%); 
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.icon {
+    vertical-align : top;
+}
+
+hr
+{
+    height: 1px;
+    border: 0;
+    background-color: hsl(215, 51%, 70%)
+}
+
+.author
+{
+    display: flex;
+}
+
+.author-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+    vertical-align: middle;
+    border: 1px solid hsl(0, 100%, 100%);
+    margin-top: 5px;
+}
+
+@media screen and (max-width: 375px) {
+    .card {
+        margin-top: 20vh;
+    }
+}
